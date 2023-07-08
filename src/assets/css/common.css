@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+input:focus {
+  border: none;
+}
+i {
+  font-style: normal;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+section {
+  flex: 1;
+  overflow: auto;
+  overflow-x: hidden;
+}
